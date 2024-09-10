@@ -68,6 +68,7 @@
 					<NavLi href="/" active={$page.url.pathname === '/'}>Home</NavLi>
 					<NavLi href="/about" active={$page.url.pathname === '/about'}>About</NavLi>
 					<NavLi href="/contact" active={$page.url.pathname === '/contact'}>Contact</NavLi>
+					<NavLi href="/login" active={$page.url.pathname === '/login'}>login</NavLi>
 				</NavUl>
 				<div class="lg:self-center flex items-center mb-4 lg:mb-0 hidden mr-3 lg:flex">
 					<div class="items-center mr-3 flex">
